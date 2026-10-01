@@ -15,6 +15,7 @@ Written after one session. Orientation, not the record; the record is [`STATUS.m
 
 ## Things a fresh agent should know
 
+- **This folder is both Synology Drive and git**, pushed to the public repo https://github.com/jpantuso/BMW-Test (Joe's choice, 2026-10-01, the same exception as Infrastructure). Commit and push after each session. It is public, so nothing private goes in; `.claude/settings.local.json` is gitignored.
 - **There is no car.** Nothing can be tested end to end. Code is verified by compiling it; behavior claims about the app come from owners' reports and need Joe's phone to confirm.
 - **Do not build or recommend a reverse-engineered MyBMW client.** That decision is in research/02 §F with its reasons. CarData and BMW's own clients are the boundary.
 - **Code does not live in this folder.** Per Joe's global rules, code goes in `~/Code/<org>/<repo>` with a Forgejo remote. The only code so far is inline in research/03; creating a repo waits on Q3.

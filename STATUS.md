@@ -2,6 +2,10 @@
 
 Session log, newest at the top.
 
+## 2026-10-01, session 1 (continued)
+
+Put the project folder itself under git and pushed it to a new public GitHub repo, https://github.com/jpantuso/BMW-Test. Joe chose git in the Drive folder over a separate `~/Code` clone, and public over private. `.claude/settings.local.json` and `.DS_Store` are gitignored.
+
 ## 2026-10-01, session 1
 
 Read the charter and set up the project in the BigSkyBase layout.
