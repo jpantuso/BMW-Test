@@ -1,3 +1,8 @@
+I created this after hearing Casey Liss lament about the lack of BMW control for preconditioning etc. thanks to their closing APIs that used to be available and used by home assistant  plugins. There was some discussion about using Claude to attack the problem but to me the conversation was coming at it from the wrong angle.
+
+This repo is the result of 3m 6s effort by Opus 5.5 in Claude harness. It leverages months of projects I've done from which it has learned how I want it to work with me and vice versa. I treat it like a remote team. Docs in, docs out. The only thing I wrote is the charter.md giving it where to start, and this couple introductory paragraphs. I know learning to delegate and trust is hard for humans with humans, and potentially worse with AI. Bringing a few decades of experience running teams helped a lot.
+
+The conclusion here is a bit of a head smacker; the existing BMW app has hooks!
 # BMW-Test
 
 A test research project: can we still get an API for remotely controlling a BMW (precondition, lock, unlock) for our own app or Home Assistant, now that the old one is gone? No car to test with; research and sample code only.
